@@ -64,8 +64,18 @@ through local processing, no data storage, and alignment with Saudi
 Personal Data Protection Law (PDPL), ensuring user trust and compliance.
 
 ## 5. Knowledge Base Sources
-1. SDAIA AI Adoption Framework 2025 - https://sdaia.gov.sa/en/SDAIA/about/Files/AIAdoptionFramework.pdf
-2. Saudi National AI Strategy - https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx
-3. Vision 2030 Health Transformation - https://www.vision2030.gov.sa/en/explore/programs/health-sector-transformation-program
-4. MOH National E-Health Strategy - https://www.moh.gov.sa/en/Ministry/nehs/Pages/vision2030.aspx
-5. Saudi AI Regulation - https://my.gov.sa/en/content/109729
+
+1. SDAIA AI Adoption Framework 2025
+   - https://sdaia.gov.sa/en/SDAIA/about/Files/AIAdoptionFramework.pdf
+
+2. Saudi National Data & AI Strategy
+   - https://sdaia.gov.sa/en/SDAIA/SdaiaStrategies/Pages/NationalStrategyForDataAndAI.aspx
+
+3. Vision 2030 Health Sector Transformation
+   - https://www.vision2030.gov.sa/en/explore/programs/health-sector-transformation-program
+
+4. Saudi AI Regulation - National Portal
+   - https://my.gov.sa/en/content/109729
+
+5. SDAIA Artificial Intelligence Authority
+   - https://sdaia.gov.sa/en/SDAIA/about/Pages/AboutAI.aspx
