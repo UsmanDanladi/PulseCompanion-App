@@ -79,3 +79,5 @@ Personal Data Protection Law (PDPL), ensuring user trust and compliance.
 
 5. SDAIA Artificial Intelligence Authority
    - https://sdaia.gov.sa/en/SDAIA/about/Pages/AboutAI.aspx
+## 6. Demo Video
+YouTube Link: https://youtu.be/5Kj7jF6zt3o?si=0ZmtAHRzSJ6M2BDg   
