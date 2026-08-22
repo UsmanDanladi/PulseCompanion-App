@@ -81,3 +81,38 @@ Personal Data Protection Law (PDPL), ensuring user trust and compliance.
    - https://sdaia.gov.sa/en/SDAIA/about/Pages/AboutAI.aspx
 ## 6. Demo Video
 YouTube Link: https://youtu.be/5Kj7jF6zt3o?si=0ZmtAHRzSJ6M2BDg   
+ ## 7. Future Work
+
+### Integration with Sehhaty App
+PulseCompanion can be integrated with Saudi Arabia's 
+official Sehhaty app to create a comprehensive health 
+monitoring ecosystem benefiting both patients and doctors:
+
+*For Patients:*
+- Heart rate history and emotional health records stored securely
+- AI conversation summaries shared with family doctor
+- Continuous monitoring between doctor visits
+
+*For Family Doctors:*
+- Access to real heart rate readings over time
+- Review of AI conversation history to understand patient patterns
+- Data-driven decisions based on actual measurements
+- Better diagnosis through longitudinal health data
+
+### Expanded Vital Signs Monitoring
+Beyond heart rate, PulseCompanion can monitor additional 
+vital signs through smart devices:
+
+- *Blood Pressure:* Continuous monitoring for hypertension 
+  patients with AI alerts when readings are abnormal
+- *Blood Sugar:* Integration with glucose monitors for 
+  diabetes patients, tracking patterns over time
+- *All data shared with Sehhaty App* for family doctors 
+  to access real measurements over specific time periods
+
+This transforms PulseCompanion into a comprehensive AI 
+health companion, enabling doctors to make data-driven 
+decisions based on actual patient vitals rather than 
+single clinic visits, directly supporting Saudi Vision 2030 
+goal of shifting from disease treatment to preventive 
+healthcare through digital technology.
