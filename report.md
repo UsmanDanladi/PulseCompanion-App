@@ -1,14 +1,14 @@
 # PulseCompanion - AI Readiness Hackathon Report
 *Team name:* PulseCompanion
-*Members name:* [Usman Danladi]
+*Members name:* Usman Danladi Alhajji
 *Solution name:* PulseCompanion - AI-Powered Heart Rate Emotional Support
-*Contact details:* [UsmanAlhajj1992@gmail.com]
+*Contact details:* 2445244ksa@aou.edu.sa
 
 ## 1. Introduction
 Cardiovascular health monitoring through smartwatches has become widespread, 
 yet current applications are limited to fitness tracking during exercise. 
-PulseCompanion addresses a critical gap: the connection between emotional 
-stress and elevated heart rate outside of physical activity contexts.
+PulseCompanion addresses a critical gap: the connection between heart rate 
+abnormalities and the need for immediate support — both physical and emotional.
 
 This solution was inspired by a personal experience where elevated heart rate 
 during emotional distress went unaddressed due to lack of appropriate tools. 
@@ -17,22 +17,37 @@ health support, aligned with Saudi Arabia's Vision 2030 health transformation
 goals and ITU AI Readiness framework.
 
 ## 2. Description of Use Case and Gaps in Existing Solutions
+
 *Problem:* Most smartwatch users rely on heart rate monitoring only during 
-exercise, unaware that elevated heart rate can indicate emotional distress, 
-anxiety, or early signs of health conditions requiring attention.
+exercise, unaware that abnormal heart rate — both high and low — can indicate 
+serious health or emotional conditions requiring immediate attention.
 
 *Existing gaps:*
 - Current apps display numbers without context or support
-- No connection between heart rate spikes and emotional/mental health
+- No connection between heart rate abnormalities and emotional or mental health
 - No immediate AI-driven intervention when abnormal readings occur
+- No detection or support for low heart rate (Bradycardia)
 - Limited awareness of smartwatch capabilities beyond fitness tracking
 
-*Our Solution:* PulseCompanion detects abnormal heart rate readings and 
-initiates an AI conversation to understand the cause, then provides:
+*Our Solution:* PulseCompanion detects abnormal heart rate readings — both 
+high and low — and initiates an AI conversation to understand the cause, 
+then provides:
 - Breathing exercises for stress reduction
-- Emotional support and mental health guidance  
+- Emotional support and mental health guidance
 - Medical consultation recommendations when needed
+- Emergency alerts for critically high or low heart rates
 - Policy-informed responses based on Saudi AI health frameworks
+
+*Bradycardia Detection:*
+PulseCompanion also detects critically low heart rates:
+- Below 40 BPM: Emergency alert to call emergency services immediately
+- Below 60 BPM: Bradycardia warning with AI conversation asking about 
+  symptoms like dizziness, fatigue, or fainting, and recommending 
+  immediate medical consultation
+
+This feature was added in response to real-world cases where sudden cardiac 
+events caused by low heart rate went undetected, highlighting the need for 
+proactive monitoring beyond fitness tracking.
 
 ## 3. Mapped Documents (ITU-T Y.3172 Pipeline)
 
@@ -48,20 +63,25 @@ initiates an AI conversation to understand the cause, then provides:
 
 ## 4. Evaluation Scenarios
 
-*Scenario 1 - Normal Operation:*
+*Scenario 1 - Normal Operation (High Heart Rate):*
 User detects heart rate of 120 BPM while stressed after an argument.
 PulseCompanion initiates conversation, identifies emotional cause, 
 provides breathing exercises. Heart rate returns to normal.
 
-*Scenario 2 - Emergency Detection:*
-User's heart rate exceeds 150 BPM. PulseCompanion immediately displays 
-emergency alert and directs user to call emergency services, preventing 
-potential cardiac emergency.
+*Scenario 2 - Emergency Detection (High):*
+User heart rate exceeds 150 BPM. PulseCompanion immediately displays 
+emergency alert and directs user to call emergency services.
 
-*Scenario 3 - Controversy/Privacy Concern:*
+*Scenario 3 - Bradycardia Detection (Low Heart Rate):*
+User heart rate drops to 50 BPM. PulseCompanion detects low heart rate,
+initiates AI conversation asking about dizziness or fatigue symptoms,
+and recommends immediate medical consultation. If below 40 BPM,
+emergency alert is triggered immediately.
+
+*Scenario 4 - Controversy/Privacy Concern:*
 Users concerned about health data privacy. PulseCompanion addresses this 
 through local processing, no data storage, and alignment with Saudi 
-Personal Data Protection Law (PDPL), ensuring user trust and compliance.
+Personal Data Protection Law (PDPL).
 
 ## 5. Knowledge Base Sources
 
@@ -79,9 +99,11 @@ Personal Data Protection Law (PDPL), ensuring user trust and compliance.
 
 5. SDAIA Artificial Intelligence Authority
    - https://sdaia.gov.sa/en/SDAIA/about/Pages/AboutAI.aspx
+
 ## 6. Demo Video
-YouTube Link: https://youtu.be/8f7132js09I?si=FZXwyvmuvsD0eaAI  
- ## 7. Future Work
+YouTube Link:https://youtu.be/8f7132js09I?si=OXimX1-Rn9uqo6tb
+
+## 7. Future Work
 
 ### Integration with Sehhaty App
 PulseCompanion can be integrated with Saudi Arabia's 
